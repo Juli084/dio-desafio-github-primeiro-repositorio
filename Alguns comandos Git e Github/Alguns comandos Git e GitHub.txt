@@ -1,0 +1,25 @@
+Para criar um link no git hub [texto] (colar link)
+
+para clonar o arquivo 
+git status e colar o link
+
+importante* sempre que commitar, precisa salvar as alteraçoes
+
+Abrir uma pasta no pc e dentro dela com o botao direito do mouse, clicar em Bash Here
+para entrar em alguma pasta colocar cd + nome da pasta
+ 
+SE alterar algum arquivo no pc e der um git status vai mostrar que houve alteracoes no arquivo
+
+para salvar alteracoes e necessario o seguinte comando
+git add . ou git add -a
+
+depois dar um git status para confirmar que esta tudo certo
+
+confirmando, e necessario explicar o que houve de alteracao
+para isso e necessario git commit -m 'texto explicando alteracao"
+
+com esses procedimentos sendo bem executados, vai salvar todas as alteracoes, mas ainda nao fez o arquivo subir ja alterado para o github
+para isso acontecer e necessario o seguinte comando
+git push origin main
+
+se tudo correu perfeitamente, basta atualizar o github e o arquivo alterado vai estar la
